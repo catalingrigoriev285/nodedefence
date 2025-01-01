@@ -7,7 +7,7 @@ private:
     char* message;
     char* type;
 public:
-    Exception(const char* title, const char* message, const char* type);
+    Exception(const char* type, const char* title, const char* message);
     ~Exception();
 
     const char* getMessage() const;

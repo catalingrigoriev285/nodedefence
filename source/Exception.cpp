@@ -3,7 +3,7 @@
 #include <iostream>
 #include <cstring>
 
-Exception::Exception(const char* title, const char* message, const char* type){
+Exception::Exception(const char* type, const char* title, const char* message){
 	this->title = new char[strlen(title) + 1];
 	strcpy(this->title, title);
 
